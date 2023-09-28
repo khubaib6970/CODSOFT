@@ -4,10 +4,10 @@
 using namespace std;
 
 int main(){
-	
+	// code for guessing a random number between 0 and 10000
 	srand(time(0));
 	
-	int ranNum = rand() %2000+1;
+	int ranNum = rand() %10000+1;
 	int userNum;
 	
 	do
